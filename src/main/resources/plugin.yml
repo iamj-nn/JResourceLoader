@@ -1,0 +1,20 @@
+name: JResourceLoader
+version: 1.1
+
+main: nn.iamj.resources.JResourceLoader
+api-version: 1.16
+
+description: Powerful and simple resource loader.
+author: iamj
+
+prefix: ResourceLoader
+
+commands:
+  resource:
+    description: The main command.
+    permission: resource.use
+
+permissions:
+  resource.use:
+    description: Access to command.
+    default: op
